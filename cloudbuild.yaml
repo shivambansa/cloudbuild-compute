@@ -1,6 +1,7 @@
 # Create the new instance template
 steps:
-- id: create-instance-template
+- name: 'gcr.io/cloud-builders/gcloud'
+  id: create-instance-template
   args:
     - compute
     - instance-templates
