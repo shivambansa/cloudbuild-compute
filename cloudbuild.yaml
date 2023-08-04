@@ -1,7 +1,6 @@
 # Create the new instance template
 steps:
-- 
-  id: create-instance-template
+- id: create-instance-template
   args:
     - compute
     - instance-templates
