@@ -9,7 +9,7 @@ steps:
     - cloud-build-instance-template-$_ENV-$SHORT_SHA
     - --custom-cpu=1
     - --custom-memory=2GB
-    - --boot-disk-size=20GB
+    - --boot-disk-size=200GB
     - --region=us-central1
     - --subnet=mig-subnet
     - --tags=allow-hc-and-proxy,allow-ssh
